@@ -18,15 +18,16 @@ and follow the license information.
 ###How to build this Demo?
 ```objective-c
 // you must have a cocoapods 
-pod install or pod update
+// run this in terminal
+pod install
 
-You will get build error 
-```objective-c
-// add this line to DTCompatibility.h in Pods->DTCoreText
+// You will get a build error 
+// add this MACRO to DTCompatibility.h in Pods->DTCoreText
 #if __IPHONE_OS_VERSION_MAX_ALLOWED > 80400
 #define DT_SUPPORTED_INTERFACE_ORIENTATIONS_RETURN_TYPE UIInterfaceOrientationMask
 #else
 #define DT_SUPPORTED_INTERFACE_ORIENTATIONS_RETURN_TYPE NSUInteger
 #endif
-// There are DTCompatibility.h file in DTFoundation... that has above macro
+// There are also same file `DTCompatibility.h` file in DTFoundation... that has above MACRO
 // Ready to execute!
+```
