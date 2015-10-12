@@ -1,0 +1,518 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6BADEE271BCC53710081DE9B /* DemoApp-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6BADEDF41BCC53710081DE9B /* DemoApp-Info.plist */; settings = {ASSET_TAGS = (); }; };
+		6BADEE281BCC53710081DE9B /* About.html in Resources */ = {isa = PBXBuildFile; fileRef = 6BADEDF71BCC53710081DE9B /* About.html */; settings = {ASSET_TAGS = (); }; };
+		6BADEE291BCC53710081DE9B /* Alignment.html in Resources */ = {isa = PBXBuildFile; fileRef = 6BADEDF81BCC53710081DE9B /* Alignment.html */; settings = {ASSET_TAGS = (); }; };
+		6BADEE2A1BCC53710081DE9B /* APOD.html in Resources */ = {isa = PBXBuildFile; fileRef = 6BADEDF91BCC53710081DE9B /* APOD.html */; settings = {ASSET_TAGS = (); }; };
+		6BADEE2B1BCC53710081DE9B /* ArabicTest.html in Resources */ = {isa = PBXBuildFile; fileRef = 6BADEDFA1BCC53710081DE9B /* ArabicTest.html */; settings = {ASSET_TAGS = (); }; };
+		6BADEE2C1BCC53710081DE9B /* CoreTextIssues.html in Resources */ = {isa = PBXBuildFile; fileRef = 6BADEDFB1BCC53710081DE9B /* CoreTextIssues.html */; settings = {ASSET_TAGS = (); }; };
+		6BADEE2D1BCC53710081DE9B /* css.css in Resources */ = {isa = PBXBuildFile; fileRef = 6BADEDFC1BCC53710081DE9B /* css.css */; settings = {ASSET_TAGS = (); }; };
+		6BADEE2E1BCC53710081DE9B /* CurrentTest.html in Resources */ = {isa = PBXBuildFile; fileRef = 6BADEDFD1BCC53710081DE9B /* CurrentTest.html */; settings = {ASSET_TAGS = (); }; };
+		6BADEE2F1BCC53710081DE9B /* CustomFont.html in Resources */ = {isa = PBXBuildFile; fileRef = 6BADEDFE1BCC53710081DE9B /* CustomFont.html */; settings = {ASSET_TAGS = (); }; };
+		6BADEE301BCC53710081DE9B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6BADEDFF1BCC53710081DE9B /* Default-568h@2x.png */; settings = {ASSET_TAGS = (); }; };
+		6BADEE311BCC53710081DE9B /* DTCoreTextFontOverrides.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6BADEE001BCC53710081DE9B /* DTCoreTextFontOverrides.plist */; settings = {ASSET_TAGS = (); }; };
+		6BADEE321BCC53710081DE9B /* EmojiTest.html in Resources */ = {isa = PBXBuildFile; fileRef = 6BADEE011BCC53710081DE9B /* EmojiTest.html */; settings = {ASSET_TAGS = (); }; };
+		6BADEE331BCC53710081DE9B /* FontSizes.html in Resources */ = {isa = PBXBuildFile; fileRef = 6BADEE021BCC53710081DE9B /* FontSizes.html */; settings = {ASSET_TAGS = (); }; };
+		6BADEE341BCC53710081DE9B /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 6BADEE031BCC53710081DE9B /* Icon.png */; settings = {ASSET_TAGS = (); }; };
+		6BADEE351BCC53710081DE9B /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6BADEE041BCC53710081DE9B /* Icon@2x.png */; settings = {ASSET_TAGS = (); }; };
+		6BADEE361BCC53710081DE9B /* icon_smile.gif in Resources */ = {isa = PBXBuildFile; fileRef = 6BADEE051BCC53710081DE9B /* icon_smile.gif */; settings = {ASSET_TAGS = (); }; };
+		6BADEE371BCC53710081DE9B /* Image.html in Resources */ = {isa = PBXBuildFile; fileRef = 6BADEE061BCC53710081DE9B /* Image.html */; settings = {ASSET_TAGS = (); }; };
+		6BADEE381BCC53710081DE9B /* iOS6.html in Resources */ = {isa = PBXBuildFile; fileRef = 6BADEE071BCC53710081DE9B /* iOS6.html */; settings = {ASSET_TAGS = (); }; };
+		6BADEE391BCC53710081DE9B /* Languages.html in Resources */ = {isa = PBXBuildFile; fileRef = 6BADEE081BCC53710081DE9B /* Languages.html */; settings = {ASSET_TAGS = (); }; };
+		6BADEE3A1BCC53710081DE9B /* Launch Screen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6BADEE091BCC53710081DE9B /* Launch Screen.xib */; settings = {ASSET_TAGS = (); }; };
+		6BADEE3B1BCC53710081DE9B /* LineHeight.html in Resources */ = {isa = PBXBuildFile; fileRef = 6BADEE0A1BCC53710081DE9B /* LineHeight.html */; settings = {ASSET_TAGS = (); }; };
+		6BADEE3C1BCC53710081DE9B /* ListTest.html in Resources */ = {isa = PBXBuildFile; fileRef = 6BADEE0B1BCC53710081DE9B /* ListTest.html */; settings = {ASSET_TAGS = (); }; };
+		6BADEE3D1BCC53710081DE9B /* LoremIpsum.html in Resources */ = {isa = PBXBuildFile; fileRef = 6BADEE0C1BCC53710081DE9B /* LoremIpsum.html */; settings = {ASSET_TAGS = (); }; };
+		6BADEE3E1BCC53710081DE9B /* Objects.html in Resources */ = {isa = PBXBuildFile; fileRef = 6BADEE0D1BCC53710081DE9B /* Objects.html */; settings = {ASSET_TAGS = (); }; };
+		6BADEE3F1BCC53710081DE9B /* Oliver.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6BADEE0E1BCC53710081DE9B /* Oliver.jpg */; settings = {ASSET_TAGS = (); }; };
+		6BADEE401BCC53710081DE9B /* Oliver@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6BADEE0F1BCC53710081DE9B /* Oliver@2x.jpg */; settings = {ASSET_TAGS = (); }; };
+		6BADEE411BCC53710081DE9B /* README.html in Resources */ = {isa = PBXBuildFile; fileRef = 6BADEE101BCC53710081DE9B /* README.html */; settings = {ASSET_TAGS = (); }; };
+		6BADEE421BCC53710081DE9B /* Snippets.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6BADEE111BCC53710081DE9B /* Snippets.plist */; settings = {ASSET_TAGS = (); }; };
+		6BADEE431BCC53710081DE9B /* styles.html in Resources */ = {isa = PBXBuildFile; fileRef = 6BADEE121BCC53710081DE9B /* styles.html */; settings = {ASSET_TAGS = (); }; };
+		6BADEE441BCC53710081DE9B /* Subviews.html in Resources */ = {isa = PBXBuildFile; fileRef = 6BADEE131BCC53710081DE9B /* Subviews.html */; settings = {ASSET_TAGS = (); }; };
+		6BADEE451BCC53710081DE9B /* TextBoxes.html in Resources */ = {isa = PBXBuildFile; fileRef = 6BADEE141BCC53710081DE9B /* TextBoxes.html */; settings = {ASSET_TAGS = (); }; };
+		6BADEE461BCC53710081DE9B /* Video.html in Resources */ = {isa = PBXBuildFile; fileRef = 6BADEE151BCC53710081DE9B /* Video.html */; settings = {ASSET_TAGS = (); }; };
+		6BADEE471BCC53710081DE9B /* WarAndPeace.html in Resources */ = {isa = PBXBuildFile; fileRef = 6BADEE161BCC53710081DE9B /* WarAndPeace.html */; settings = {ASSET_TAGS = (); }; };
+		6BADEE481BCC53710081DE9B /* XB Niloofar.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6BADEE171BCC53710081DE9B /* XB Niloofar.ttf */; settings = {ASSET_TAGS = (); }; };
+		6BADEE491BCC53710081DE9B /* XB NiloofarBd.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6BADEE181BCC53710081DE9B /* XB NiloofarBd.ttf */; settings = {ASSET_TAGS = (); }; };
+		6BADEE4A1BCC53710081DE9B /* AutoLayoutDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BADEE1B1BCC53710081DE9B /* AutoLayoutDemoViewController.m */; settings = {ASSET_TAGS = (); }; };
+		6BADEE4B1BCC53710081DE9B /* AutoLayoutDemoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6BADEE1C1BCC53710081DE9B /* AutoLayoutDemoViewController.xib */; settings = {ASSET_TAGS = (); }; };
+		6BADEE4C1BCC53710081DE9B /* CoreTextDemoAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BADEE1E1BCC53710081DE9B /* CoreTextDemoAppDelegate.m */; settings = {ASSET_TAGS = (); }; };
+		6BADEE4D1BCC53710081DE9B /* DemoAboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BADEE201BCC53710081DE9B /* DemoAboutViewController.m */; settings = {ASSET_TAGS = (); }; };
+		6BADEE4E1BCC53710081DE9B /* DemoAboutViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6BADEE211BCC53710081DE9B /* DemoAboutViewController.xib */; settings = {ASSET_TAGS = (); }; };
+		6BADEE4F1BCC53710081DE9B /* DemoSnippetsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BADEE231BCC53710081DE9B /* DemoSnippetsViewController.m */; settings = {ASSET_TAGS = (); }; };
+		6BADEE501BCC53710081DE9B /* DemoTextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BADEE251BCC53710081DE9B /* DemoTextViewController.m */; settings = {ASSET_TAGS = (); }; };
+		6BADEE511BCC53710081DE9B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BADEE261BCC53710081DE9B /* main.m */; settings = {ASSET_TAGS = (); }; };
+		6BADEE531BCC53E80081DE9B /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 6BADEE521BCC53E80081DE9B /* Podfile */; settings = {ASSET_TAGS = (); }; };
+		B42858549BE41BB2A6E2EE1A /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E04B41380B4117BFDD26F168 /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		47B8C6DB20914B5EFD4DA42F /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		631C899CC1FAA703F431CD76 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		6BADEDD91BCC53230081DE9B /* Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BADEDF41BCC53710081DE9B /* DemoApp-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "DemoApp-Info.plist"; sourceTree = "<group>"; };
+		6BADEDF51BCC53710081DE9B /* DemoApp-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DemoApp-Prefix.pch"; sourceTree = "<group>"; };
+		6BADEDF71BCC53710081DE9B /* About.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = About.html; sourceTree = "<group>"; };
+		6BADEDF81BCC53710081DE9B /* Alignment.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Alignment.html; sourceTree = "<group>"; };
+		6BADEDF91BCC53710081DE9B /* APOD.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = APOD.html; sourceTree = "<group>"; };
+		6BADEDFA1BCC53710081DE9B /* ArabicTest.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = ArabicTest.html; sourceTree = "<group>"; };
+		6BADEDFB1BCC53710081DE9B /* CoreTextIssues.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = CoreTextIssues.html; sourceTree = "<group>"; };
+		6BADEDFC1BCC53710081DE9B /* css.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = css.css; sourceTree = "<group>"; };
+		6BADEDFD1BCC53710081DE9B /* CurrentTest.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = CurrentTest.html; sourceTree = "<group>"; };
+		6BADEDFE1BCC53710081DE9B /* CustomFont.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = CustomFont.html; sourceTree = "<group>"; };
+		6BADEDFF1BCC53710081DE9B /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		6BADEE001BCC53710081DE9B /* DTCoreTextFontOverrides.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = DTCoreTextFontOverrides.plist; sourceTree = "<group>"; };
+		6BADEE011BCC53710081DE9B /* EmojiTest.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = EmojiTest.html; sourceTree = "<group>"; };
+		6BADEE021BCC53710081DE9B /* FontSizes.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = FontSizes.html; sourceTree = "<group>"; };
+		6BADEE031BCC53710081DE9B /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		6BADEE041BCC53710081DE9B /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		6BADEE051BCC53710081DE9B /* icon_smile.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = icon_smile.gif; sourceTree = "<group>"; };
+		6BADEE061BCC53710081DE9B /* Image.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Image.html; sourceTree = "<group>"; };
+		6BADEE071BCC53710081DE9B /* iOS6.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = iOS6.html; sourceTree = "<group>"; };
+		6BADEE081BCC53710081DE9B /* Languages.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Languages.html; sourceTree = "<group>"; };
+		6BADEE091BCC53710081DE9B /* Launch Screen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "Launch Screen.xib"; sourceTree = "<group>"; };
+		6BADEE0A1BCC53710081DE9B /* LineHeight.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = LineHeight.html; sourceTree = "<group>"; };
+		6BADEE0B1BCC53710081DE9B /* ListTest.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = ListTest.html; sourceTree = "<group>"; };
+		6BADEE0C1BCC53710081DE9B /* LoremIpsum.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = LoremIpsum.html; sourceTree = "<group>"; };
+		6BADEE0D1BCC53710081DE9B /* Objects.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Objects.html; sourceTree = "<group>"; };
+		6BADEE0E1BCC53710081DE9B /* Oliver.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Oliver.jpg; sourceTree = "<group>"; };
+		6BADEE0F1BCC53710081DE9B /* Oliver@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Oliver@2x.jpg"; sourceTree = "<group>"; };
+		6BADEE101BCC53710081DE9B /* README.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = README.html; sourceTree = "<group>"; };
+		6BADEE111BCC53710081DE9B /* Snippets.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Snippets.plist; sourceTree = "<group>"; };
+		6BADEE121BCC53710081DE9B /* styles.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = styles.html; sourceTree = "<group>"; };
+		6BADEE131BCC53710081DE9B /* Subviews.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Subviews.html; sourceTree = "<group>"; };
+		6BADEE141BCC53710081DE9B /* TextBoxes.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = TextBoxes.html; sourceTree = "<group>"; };
+		6BADEE151BCC53710081DE9B /* Video.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Video.html; sourceTree = "<group>"; };
+		6BADEE161BCC53710081DE9B /* WarAndPeace.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = WarAndPeace.html; sourceTree = "<group>"; };
+		6BADEE171BCC53710081DE9B /* XB Niloofar.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "XB Niloofar.ttf"; sourceTree = "<group>"; };
+		6BADEE181BCC53710081DE9B /* XB NiloofarBd.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "XB NiloofarBd.ttf"; sourceTree = "<group>"; };
+		6BADEE1A1BCC53710081DE9B /* AutoLayoutDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutoLayoutDemoViewController.h; sourceTree = "<group>"; };
+		6BADEE1B1BCC53710081DE9B /* AutoLayoutDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AutoLayoutDemoViewController.m; sourceTree = "<group>"; };
+		6BADEE1C1BCC53710081DE9B /* AutoLayoutDemoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AutoLayoutDemoViewController.xib; sourceTree = "<group>"; };
+		6BADEE1D1BCC53710081DE9B /* CoreTextDemoAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreTextDemoAppDelegate.h; sourceTree = "<group>"; };
+		6BADEE1E1BCC53710081DE9B /* CoreTextDemoAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreTextDemoAppDelegate.m; sourceTree = "<group>"; };
+		6BADEE1F1BCC53710081DE9B /* DemoAboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoAboutViewController.h; sourceTree = "<group>"; };
+		6BADEE201BCC53710081DE9B /* DemoAboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoAboutViewController.m; sourceTree = "<group>"; };
+		6BADEE211BCC53710081DE9B /* DemoAboutViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DemoAboutViewController.xib; sourceTree = "<group>"; };
+		6BADEE221BCC53710081DE9B /* DemoSnippetsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoSnippetsViewController.h; sourceTree = "<group>"; };
+		6BADEE231BCC53710081DE9B /* DemoSnippetsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoSnippetsViewController.m; sourceTree = "<group>"; };
+		6BADEE241BCC53710081DE9B /* DemoTextViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoTextViewController.h; sourceTree = "<group>"; };
+		6BADEE251BCC53710081DE9B /* DemoTextViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoTextViewController.m; sourceTree = "<group>"; };
+		6BADEE261BCC53710081DE9B /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6BADEE521BCC53E80081DE9B /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		E04B41380B4117BFDD26F168 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6BADEDD61BCC53230081DE9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B42858549BE41BB2A6E2EE1A /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6BADEDD01BCC53230081DE9B = {
+			isa = PBXGroup;
+			children = (
+				6BADEE521BCC53E80081DE9B /* Podfile */,
+				6BADEDF31BCC53710081DE9B /* Demo */,
+				6BADEDDA1BCC53230081DE9B /* Products */,
+				870F5062D0B70ACF751A7082 /* Pods */,
+				6BD6D81DE3DF5D33EEA57DA1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6BADEDDA1BCC53230081DE9B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6BADEDD91BCC53230081DE9B /* Demo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6BADEDF31BCC53710081DE9B /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				6BADEDF41BCC53710081DE9B /* DemoApp-Info.plist */,
+				6BADEDF51BCC53710081DE9B /* DemoApp-Prefix.pch */,
+				6BADEDF61BCC53710081DE9B /* Resources */,
+				6BADEE191BCC53710081DE9B /* Source */,
+			);
+			path = Demo;
+			sourceTree = "<group>";
+		};
+		6BADEDF61BCC53710081DE9B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6BADEDF71BCC53710081DE9B /* About.html */,
+				6BADEDF81BCC53710081DE9B /* Alignment.html */,
+				6BADEDF91BCC53710081DE9B /* APOD.html */,
+				6BADEDFA1BCC53710081DE9B /* ArabicTest.html */,
+				6BADEDFB1BCC53710081DE9B /* CoreTextIssues.html */,
+				6BADEDFC1BCC53710081DE9B /* css.css */,
+				6BADEDFD1BCC53710081DE9B /* CurrentTest.html */,
+				6BADEDFE1BCC53710081DE9B /* CustomFont.html */,
+				6BADEDFF1BCC53710081DE9B /* Default-568h@2x.png */,
+				6BADEE001BCC53710081DE9B /* DTCoreTextFontOverrides.plist */,
+				6BADEE011BCC53710081DE9B /* EmojiTest.html */,
+				6BADEE021BCC53710081DE9B /* FontSizes.html */,
+				6BADEE031BCC53710081DE9B /* Icon.png */,
+				6BADEE041BCC53710081DE9B /* Icon@2x.png */,
+				6BADEE051BCC53710081DE9B /* icon_smile.gif */,
+				6BADEE061BCC53710081DE9B /* Image.html */,
+				6BADEE071BCC53710081DE9B /* iOS6.html */,
+				6BADEE081BCC53710081DE9B /* Languages.html */,
+				6BADEE091BCC53710081DE9B /* Launch Screen.xib */,
+				6BADEE0A1BCC53710081DE9B /* LineHeight.html */,
+				6BADEE0B1BCC53710081DE9B /* ListTest.html */,
+				6BADEE0C1BCC53710081DE9B /* LoremIpsum.html */,
+				6BADEE0D1BCC53710081DE9B /* Objects.html */,
+				6BADEE0E1BCC53710081DE9B /* Oliver.jpg */,
+				6BADEE0F1BCC53710081DE9B /* Oliver@2x.jpg */,
+				6BADEE101BCC53710081DE9B /* README.html */,
+				6BADEE111BCC53710081DE9B /* Snippets.plist */,
+				6BADEE121BCC53710081DE9B /* styles.html */,
+				6BADEE131BCC53710081DE9B /* Subviews.html */,
+				6BADEE141BCC53710081DE9B /* TextBoxes.html */,
+				6BADEE151BCC53710081DE9B /* Video.html */,
+				6BADEE161BCC53710081DE9B /* WarAndPeace.html */,
+				6BADEE171BCC53710081DE9B /* XB Niloofar.ttf */,
+				6BADEE181BCC53710081DE9B /* XB NiloofarBd.ttf */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		6BADEE191BCC53710081DE9B /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				6BADEE1A1BCC53710081DE9B /* AutoLayoutDemoViewController.h */,
+				6BADEE1B1BCC53710081DE9B /* AutoLayoutDemoViewController.m */,
+				6BADEE1C1BCC53710081DE9B /* AutoLayoutDemoViewController.xib */,
+				6BADEE1D1BCC53710081DE9B /* CoreTextDemoAppDelegate.h */,
+				6BADEE1E1BCC53710081DE9B /* CoreTextDemoAppDelegate.m */,
+				6BADEE1F1BCC53710081DE9B /* DemoAboutViewController.h */,
+				6BADEE201BCC53710081DE9B /* DemoAboutViewController.m */,
+				6BADEE211BCC53710081DE9B /* DemoAboutViewController.xib */,
+				6BADEE221BCC53710081DE9B /* DemoSnippetsViewController.h */,
+				6BADEE231BCC53710081DE9B /* DemoSnippetsViewController.m */,
+				6BADEE241BCC53710081DE9B /* DemoTextViewController.h */,
+				6BADEE251BCC53710081DE9B /* DemoTextViewController.m */,
+				6BADEE261BCC53710081DE9B /* main.m */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		6BD6D81DE3DF5D33EEA57DA1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E04B41380B4117BFDD26F168 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		870F5062D0B70ACF751A7082 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				47B8C6DB20914B5EFD4DA42F /* Pods.debug.xcconfig */,
+				631C899CC1FAA703F431CD76 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6BADEDD81BCC53230081DE9B /* Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6BADEDF01BCC53230081DE9B /* Build configuration list for PBXNativeTarget "Demo" */;
+			buildPhases = (
+				A4D4EF74C8AF12B6C2D56AFB /* Check Pods Manifest.lock */,
+				6BADEDD51BCC53230081DE9B /* Sources */,
+				6BADEDD61BCC53230081DE9B /* Frameworks */,
+				6BADEDD71BCC53230081DE9B /* Resources */,
+				1666EFB39F913C8D4173134D /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Demo;
+			productName = Demo;
+			productReference = 6BADEDD91BCC53230081DE9B /* Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6BADEDD11BCC53230081DE9B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Yoon Lee";
+				TargetAttributes = {
+					6BADEDD81BCC53230081DE9B = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 6BADEDD41BCC53230081DE9B /* Build configuration list for PBXProject "Demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6BADEDD01BCC53230081DE9B;
+			productRefGroup = 6BADEDDA1BCC53230081DE9B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6BADEDD81BCC53230081DE9B /* Demo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6BADEDD71BCC53230081DE9B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BADEE2A1BCC53710081DE9B /* APOD.html in Resources */,
+				6BADEE371BCC53710081DE9B /* Image.html in Resources */,
+				6BADEE4E1BCC53710081DE9B /* DemoAboutViewController.xib in Resources */,
+				6BADEE421BCC53710081DE9B /* Snippets.plist in Resources */,
+				6BADEE321BCC53710081DE9B /* EmojiTest.html in Resources */,
+				6BADEE461BCC53710081DE9B /* Video.html in Resources */,
+				6BADEE281BCC53710081DE9B /* About.html in Resources */,
+				6BADEE331BCC53710081DE9B /* FontSizes.html in Resources */,
+				6BADEE361BCC53710081DE9B /* icon_smile.gif in Resources */,
+				6BADEE451BCC53710081DE9B /* TextBoxes.html in Resources */,
+				6BADEE351BCC53710081DE9B /* Icon@2x.png in Resources */,
+				6BADEE271BCC53710081DE9B /* DemoApp-Info.plist in Resources */,
+				6BADEE311BCC53710081DE9B /* DTCoreTextFontOverrides.plist in Resources */,
+				6BADEE3D1BCC53710081DE9B /* LoremIpsum.html in Resources */,
+				6BADEE3A1BCC53710081DE9B /* Launch Screen.xib in Resources */,
+				6BADEE3C1BCC53710081DE9B /* ListTest.html in Resources */,
+				6BADEE301BCC53710081DE9B /* Default-568h@2x.png in Resources */,
+				6BADEE291BCC53710081DE9B /* Alignment.html in Resources */,
+				6BADEE3F1BCC53710081DE9B /* Oliver.jpg in Resources */,
+				6BADEE2D1BCC53710081DE9B /* css.css in Resources */,
+				6BADEE2C1BCC53710081DE9B /* CoreTextIssues.html in Resources */,
+				6BADEE441BCC53710081DE9B /* Subviews.html in Resources */,
+				6BADEE2E1BCC53710081DE9B /* CurrentTest.html in Resources */,
+				6BADEE471BCC53710081DE9B /* WarAndPeace.html in Resources */,
+				6BADEE3E1BCC53710081DE9B /* Objects.html in Resources */,
+				6BADEE4B1BCC53710081DE9B /* AutoLayoutDemoViewController.xib in Resources */,
+				6BADEE401BCC53710081DE9B /* Oliver@2x.jpg in Resources */,
+				6BADEE3B1BCC53710081DE9B /* LineHeight.html in Resources */,
+				6BADEE531BCC53E80081DE9B /* Podfile in Resources */,
+				6BADEE2B1BCC53710081DE9B /* ArabicTest.html in Resources */,
+				6BADEE431BCC53710081DE9B /* styles.html in Resources */,
+				6BADEE411BCC53710081DE9B /* README.html in Resources */,
+				6BADEE481BCC53710081DE9B /* XB Niloofar.ttf in Resources */,
+				6BADEE391BCC53710081DE9B /* Languages.html in Resources */,
+				6BADEE381BCC53710081DE9B /* iOS6.html in Resources */,
+				6BADEE491BCC53710081DE9B /* XB NiloofarBd.ttf in Resources */,
+				6BADEE341BCC53710081DE9B /* Icon.png in Resources */,
+				6BADEE2F1BCC53710081DE9B /* CustomFont.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1666EFB39F913C8D4173134D /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A4D4EF74C8AF12B6C2D56AFB /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6BADEDD51BCC53230081DE9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BADEE4A1BCC53710081DE9B /* AutoLayoutDemoViewController.m in Sources */,
+				6BADEE501BCC53710081DE9B /* DemoTextViewController.m in Sources */,
+				6BADEE4F1BCC53710081DE9B /* DemoSnippetsViewController.m in Sources */,
+				6BADEE4C1BCC53710081DE9B /* CoreTextDemoAppDelegate.m in Sources */,
+				6BADEE511BCC53710081DE9B /* main.m in Sources */,
+				6BADEE4D1BCC53710081DE9B /* DemoAboutViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		6BADEDEE1BCC53230081DE9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6BADEDEF1BCC53230081DE9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6BADEDF11BCC53230081DE9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47B8C6DB20914B5EFD4DA42F /* Pods.debug.xcconfig */;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(PROJECT)/DemoApp-Prefix.pch";
+				INFOPLIST_FILE = "$(PROJECT)/DemoApp-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yoonlee.Demo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6BADEDF21BCC53230081DE9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 631C899CC1FAA703F431CD76 /* Pods.release.xcconfig */;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(PROJECT)/DemoApp-Prefix.pch";
+				INFOPLIST_FILE = "$(PROJECT)/DemoApp-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yoonlee.Demo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6BADEDD41BCC53230081DE9B /* Build configuration list for PBXProject "Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BADEDEE1BCC53230081DE9B /* Debug */,
+				6BADEDEF1BCC53230081DE9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6BADEDF01BCC53230081DE9B /* Build configuration list for PBXNativeTarget "Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BADEDF11BCC53230081DE9B /* Debug */,
+				6BADEDF21BCC53230081DE9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6BADEDD11BCC53230081DE9B /* Project object */;
+}
