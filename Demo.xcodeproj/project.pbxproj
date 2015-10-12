@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6BADEE271BCC53710081DE9B /* DemoApp-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6BADEDF41BCC53710081DE9B /* DemoApp-Info.plist */; settings = {ASSET_TAGS = (); }; };
 		6BADEE281BCC53710081DE9B /* About.html in Resources */ = {isa = PBXBuildFile; fileRef = 6BADEDF71BCC53710081DE9B /* About.html */; settings = {ASSET_TAGS = (); }; };
 		6BADEE291BCC53710081DE9B /* Alignment.html in Resources */ = {isa = PBXBuildFile; fileRef = 6BADEDF81BCC53710081DE9B /* Alignment.html */; settings = {ASSET_TAGS = (); }; };
 		6BADEE2A1BCC53710081DE9B /* APOD.html in Resources */ = {isa = PBXBuildFile; fileRef = 6BADEDF91BCC53710081DE9B /* APOD.html */; settings = {ASSET_TAGS = (); }; };
@@ -301,7 +300,6 @@
 				6BADEE361BCC53710081DE9B /* icon_smile.gif in Resources */,
 				6BADEE451BCC53710081DE9B /* TextBoxes.html in Resources */,
 				6BADEE351BCC53710081DE9B /* Icon@2x.png in Resources */,
-				6BADEE271BCC53710081DE9B /* DemoApp-Info.plist in Resources */,
 				6BADEE311BCC53710081DE9B /* DTCoreTextFontOverrides.plist in Resources */,
 				6BADEE3D1BCC53710081DE9B /* LoremIpsum.html in Resources */,
 				6BADEE3A1BCC53710081DE9B /* Launch Screen.xib in Resources */,
