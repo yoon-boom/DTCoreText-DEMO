@@ -50,6 +50,8 @@
 		6BADEE501BCC53710081DE9B /* DemoTextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BADEE251BCC53710081DE9B /* DemoTextViewController.m */; settings = {ASSET_TAGS = (); }; };
 		6BADEE511BCC53710081DE9B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BADEE261BCC53710081DE9B /* main.m */; settings = {ASSET_TAGS = (); }; };
 		6BADEE531BCC53E80081DE9B /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 6BADEE521BCC53E80081DE9B /* Podfile */; settings = {ASSET_TAGS = (); }; };
+		6BB41D911BD1B835000E93CB /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 6BB41D901BD1B835000E93CB /* README.md */; settings = {ASSET_TAGS = (); }; };
+		6BB41D931BD1B897000E93CB /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6BB41D921BD1B897000E93CB /* LICENSE.txt */; settings = {ASSET_TAGS = (); }; };
 		B42858549BE41BB2A6E2EE1A /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E04B41380B4117BFDD26F168 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -107,6 +109,8 @@
 		6BADEE251BCC53710081DE9B /* DemoTextViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoTextViewController.m; sourceTree = "<group>"; };
 		6BADEE261BCC53710081DE9B /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6BADEE521BCC53E80081DE9B /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		6BB41D901BD1B835000E93CB /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		6BB41D921BD1B897000E93CB /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
 		E04B41380B4117BFDD26F168 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -125,6 +129,8 @@
 		6BADEDD01BCC53230081DE9B = {
 			isa = PBXGroup;
 			children = (
+				6BB41D921BD1B897000E93CB /* LICENSE.txt */,
+				6BB41D901BD1B835000E93CB /* README.md */,
 				6BADEE521BCC53E80081DE9B /* Podfile */,
 				6BADEDF31BCC53710081DE9B /* Demo */,
 				6BADEDDA1BCC53230081DE9B /* Products */,
@@ -293,6 +299,7 @@
 				6BADEE371BCC53710081DE9B /* Image.html in Resources */,
 				6BADEE4E1BCC53710081DE9B /* DemoAboutViewController.xib in Resources */,
 				6BADEE421BCC53710081DE9B /* Snippets.plist in Resources */,
+				6BB41D931BD1B897000E93CB /* LICENSE.txt in Resources */,
 				6BADEE321BCC53710081DE9B /* EmojiTest.html in Resources */,
 				6BADEE461BCC53710081DE9B /* Video.html in Resources */,
 				6BADEE281BCC53710081DE9B /* About.html in Resources */,
@@ -372,6 +379,7 @@
 				6BADEE4A1BCC53710081DE9B /* AutoLayoutDemoViewController.m in Sources */,
 				6BADEE501BCC53710081DE9B /* DemoTextViewController.m in Sources */,
 				6BADEE4F1BCC53710081DE9B /* DemoSnippetsViewController.m in Sources */,
+				6BB41D911BD1B835000E93CB /* README.md in Sources */,
 				6BADEE4C1BCC53710081DE9B /* CoreTextDemoAppDelegate.m in Sources */,
 				6BADEE511BCC53710081DE9B /* main.m in Sources */,
 				6BADEE4D1BCC53710081DE9B /* DemoAboutViewController.m in Sources */,

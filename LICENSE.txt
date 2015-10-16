@@ -1,0 +1,2 @@
+Cocoanetics, Oliver Drobnik is the original author of the DTCoreText and DTCoreDemo.
+The original source code can be find at https://github.com/Cocoanetics/DTCoreText.

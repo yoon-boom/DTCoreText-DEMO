@@ -1,9 +1,12 @@
 ### DTCoreText-DEMO
 Executable Demo project in https://github.com/Cocoanetics/DTCoreText
 
+<br>Cocoanetics, Oliver Drobnik is the original author of the DTCoreText and DTCoreDemo.
+<br>The original source code can be find at https://github.com/Cocoanetics/DTCoreText.
+
 ###Why?
 Yes, probablly author already have put right instructions to run Demo.
-Yes, this repo can be removable upon request by author.
+<br>Yes, this repo can be removable upon request by author.
 
 But, I really had short time for finding an instructions and addressing build issue(s) to run Demo project.
 
